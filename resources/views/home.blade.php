@@ -13,14 +13,14 @@
 </head>
 
 <body>
-    <div class="container text-center h-25 py-5">
+    <div class="container-fluid text-center h-25 py-5">
         <h1>Hello Word</h1>
     </div>
 
-    <header class="d-flex justify-content-center align-items-center">
-        <a class="btn btn-danger me-3" href="{{ route('page1') }}"> Page 1</a>
-        <a class="btn btn-danger me-3" href="{{ route('page2') }}"> Page 2</a>
-    </header>
+    <div class="d-grid gap-2 container">
+        <a class="btn btn-primary" href="{{ route('page1') }}"> Page 1</a>
+        <a class="btn btn-primary" href="{{ route('page2') }}"> Page 2</a>
+    </div>
 </body>
 
 </html>

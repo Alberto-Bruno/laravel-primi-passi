@@ -14,13 +14,18 @@
 
 <body>
     <div class="container text-center h-25 py-5">
-        <h1>Laravel</h1>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Laravel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('page1') }}">Return</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+        </ul>
     </div>
-
-    <header class="d-flex justify-content-center align-items-center">
-        <a class="btn btn-danger me-3" href="{{ route('page1') }}">Return page1</a>
-        <a class="btn btn-danger me-3" href="{{ route('home') }}"> Home</a>
-    </header>
 </body>
 
 </html>
